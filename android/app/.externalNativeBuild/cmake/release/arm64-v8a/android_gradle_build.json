@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/steff/GitHub/iazzu61/opencvtest/android/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/steff/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/steff/GitHub/iazzu61/opencvtest/android/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "/Users/steff/GitHub/iazzu61/opencvtest/android/app/src/main/jniLibs/arm64-v8a/libopencv_java3.so",
+			"toolchain" : "11149931423196243611"
+		},
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/steff/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/steff/GitHub/iazzu61/opencvtest/android/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/steff/Library/Android/sdk/ndk/16.1.4479499/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/steff/Library/Android/sdk/ndk/16.1.4479499/sysroot  -Dnative_lib_EXPORTS -I/Users/steff/GitHub/iazzu61/_resources/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/steff/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/steff/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/steff/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/steff/Library/Android/sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/steff/GitHub/iazzu61/opencvtest/android/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/steff/GitHub/iazzu61/opencvtest/android/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/steff/GitHub/iazzu61/opencvtest/android/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "11149931423196243611"
+		}
+	},
+	"toolchains" : 
+	{
+		"11149931423196243611" : 
+		{
+			"cCompilerExecutable" : "/Users/steff/Library/Android/sdk/ndk/16.1.4479499/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/steff/Library/Android/sdk/ndk/16.1.4479499/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

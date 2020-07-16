@@ -1,0 +1,1 @@
+LOCAL_CPPFLAGS += -std=c++11

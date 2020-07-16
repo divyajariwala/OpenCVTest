@@ -1,0 +1,3 @@
+/Users/steff/GitHub/iazzu61/opencvtest/android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/steff/GitHub/iazzu61/opencvtest/android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/steff/GitHub/iazzu61/opencvtest/android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir
